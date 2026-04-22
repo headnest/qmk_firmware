@@ -1,4 +1,21 @@
-# Keyball44 miniZoneファームウェア
+# Keyball44 のトラックボールを矢印キー化
+takashicompany氏による、modキーによるトラックボールでのスクロール操作を可能にするkeyball44のminizoneファームウェアを更に改修したものです。
+
+modキーによるトラックボールの動作モードに、矢印キー化するモード(ARROWMODE)を追加し、指定のレイヤー上(デフォルトで2,3,4,5)でこれを有効化します。
+
+
+
+
+
+
+
+
+
+
+
+以下オリジナルのreadmeす。
+
+# Keyball44 のminizoneファームウェア
 
 [miniZone](https://github.com/takashicompany/minizone)で開発したファームウェアの実装をKeyball44に流用したものです。
 
