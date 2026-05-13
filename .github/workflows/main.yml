@@ -1,0 +1,26 @@
+name: Sample QMK Firmware Build Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: QMK Build firmware Action
+        uses: ijikeman/qmk_build@v0.0.1
+        with:
+          keyboard: 'plunck'
+          rev: 'rev1'
+          keymap: 'default'
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware
+          path: ${{ github.workspace }}/output/*.hex
