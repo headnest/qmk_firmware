@@ -15,8 +15,8 @@ jobs:
       - name: QMK Build firmware Action
         uses: ijikeman/qmk_build@v0.0.1
         with:
-          keyboard: 'plunck'
-          rev: 'rev1'
+          keyboard: 'guitar_procyon'
+          rev: 'guitar_procyon36'
           keymap: 'default'
 
       - name: Upload artifact
