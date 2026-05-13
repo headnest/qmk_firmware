@@ -1,4 +1,4 @@
-name: Sample QMK Firmware Build Action
+name: my QMK Firmware Build Action
 
 on:
   push:
